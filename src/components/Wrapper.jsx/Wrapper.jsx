@@ -14,7 +14,7 @@ class Wrapper extends Component {
     };
 
     formSubmitHandler = ({ name, number }) => {
-        console.log({ name, number })
+        //console.log({ name, number })
         
         const addContact = {
             id: uuidv4(),

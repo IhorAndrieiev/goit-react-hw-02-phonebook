@@ -1,5 +1,5 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
  //import contacts from '../../contacts.json';
  import Button from '../Button/Button'
  import{MdContactPhone, MdPhone} from 'react-icons/md'
@@ -41,10 +41,10 @@ function ContactList({contacts, onDelete}) {
     )
 }
 
-// ContactList.propTypes = {
-//   contacts: PropTypes.array,
-// //    onDeleteClick: PropTypes.func.isRequired,
-// };
+ContactList.propTypes = {
+  contacts: PropTypes.array,
+   onDelete: PropTypes.func.isRequired,
+};
 
 export default ContactList;
     
